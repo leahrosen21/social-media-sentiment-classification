@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project implements a complete **machine learning pipeline for sentiment classification** of social media posts (X / Twitter-like platform).
+This project implements a complete **machine learning pipeline for sentiment classification** of social media posts (X/Twitter-like platform).
 
 The goal is to classify posts as **Positive** or **Negative** using textual content alongside user and engagement metadata.
 
@@ -101,13 +101,40 @@ The final selected model achieved strong and balanced performance:
 ## Repository Structure
 ```
 ├── data/
-├── sentiment.csv # Main dataset (train + evaluation split)
-├── test_predictions.csv # Predictions on hidden test set
+│ ├── sentiment.csv # Main dataset (train + evaluation split)
+│ ├── test_predictions.csv # Predictions on hidden test set
 ├── notebooks/
-├── Exploratory Data Analysis & Feature Engineering.ipynb # EDA, preprocessing, feature engineering
-├── Modeling & Evaluation.ipynb # Model training, tuning, evaluation
+│ ├── Exploratory Data Analysis & Feature Engineering.ipynb # EDA, preprocessing, feature engineering
+│ ├── Modeling & Evaluation.ipynb # Model training, tuning, evaluation
 ├── reports/
 │ ├── Exploratory Data Analysis & Feature Engineering.pdf # Detailed analysis and discussion (Phase 1)
 │ ├── Modeling & Evaluation.pdf # Detailed analysis and discussion (Phase 2)
 ```
+---
+## How to Run
 
+This project is designed for execution in [Google Colab](https://colab.research.google.com/), including built-in file upload handling.
+---
+
+### 1. Open the Scripts
+
+Upload the `.ipynb` files to a code editor of your choice or open them directly in Google Colab:
+
+- **Part 1:** `Exploratory Data Analysis & Feature Engineering.ipynb`  
+  (Data sensing, preprocessing, and feature engineering)
+
+- **Part 2:** `Modeling & Evaluation.ipynb`  
+  (Model training, tuning, and evaluation)
+
+---
+
+### 2. Upload the Dataset
+
+When running the designated data loading cell in **Part 1**, a file upload prompt will appear using:
+
+```python
+google.colab.files.upload()
+```
+
+### 3. Select and upload the `sentiment.csv` file from your local machine
+The script will remove invalid entries, begin the preprocessing and feature engineering pipeline
