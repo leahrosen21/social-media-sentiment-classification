@@ -114,8 +114,8 @@ The final selected model achieved strong and balanced performance:
 ```
 ---
 ## How to Run
+This project is designed to run in [Google Colab](https://colab.research.google.com/), including built-in file upload handling..
 
-This project is designed for execution in [Google Colab](https://colab.research.google.com/), including built-in file upload handling.
 ---
 
 ### 1. Open the Scripts
@@ -142,9 +142,11 @@ google.colab.files.upload()
 The script will remove invalid entries, begin the preprocessing and feature engineering pipeline
 
 ---
+
 ### 4. Output
 - Final trained models and evaluation results
 - `test_predictions.csv` containing predictions on the test set
+
 ---
 
 ## Contributors
