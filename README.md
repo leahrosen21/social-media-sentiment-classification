@@ -24,8 +24,8 @@ The goal is to classify posts as **Positive** or **Negative** using textual cont
 
 ### Files:
 - `sentiment.csv` - Main dataset used in the project (used to split into training and evaluation sets)
-- `test_predictions.csv` - Predictions generated on the [test set](\test.csv) (labels were not disclosed during the project)
-- `test.csv` - Test dataset.
+- `test.csv` - Test dataset (labels were not disclosed during the project)
+- `test_predictions.csv` - Predictions generated on the [test set](\test.csv) 
 
 ---
 
@@ -103,6 +103,7 @@ The final selected model achieved strong and balanced performance:
 ```
 ├── data/
 │ ├── sentiment.csv # Main dataset (train + evaluation split)
+│ ├── test.csv # Test dataset
 │ ├── test_predictions.csv # Predictions on hidden test set
 ├── notebooks/
 │ ├── Exploratory Data Analysis & Feature Engineering.ipynb # EDA, preprocessing, feature engineering
