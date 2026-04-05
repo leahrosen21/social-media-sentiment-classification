@@ -24,7 +24,8 @@ The goal is to classify posts as **Positive** or **Negative** using textual cont
 
 ### Files:
 - `sentiment.csv` — Main dataset used in the project (used to split into training and evaluation sets)
-- `test_predictions.csv` — Predictions generated on the hidden test set (samples were not disclosed during the project)
+- `test_predictions.csv` — Predictions generated on the [test set](\test.csv) (labels were not disclosed during the project)
+- `test.csv` — Test dataset.
 
 ---
 
@@ -138,3 +139,15 @@ google.colab.files.upload()
 
 ### 3. Select and upload the `sentiment.csv` file from your local machine
 The script will remove invalid entries, begin the preprocessing and feature engineering pipeline
+
+---
+### 4. Output
+- Final trained models and evaluation results
+- `test_predictions.csv` containing predictions on the test set
+---
+---
+
+## Contributors
+- [Leah Rosen](https://github.com/leahrosen21)
+- [Ofri Ratinsky](https://github.com/OfriRatinsky)
+
