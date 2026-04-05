@@ -145,7 +145,6 @@ The script will remove invalid entries, begin the preprocessing and feature engi
 - Final trained models and evaluation results
 - `test_predictions.csv` containing predictions on the test set
 ---
----
 
 ## Contributors
 - [Leah Rosen](https://github.com/leahrosen21)
