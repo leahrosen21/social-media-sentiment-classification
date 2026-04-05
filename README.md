@@ -1,4 +1,4 @@
-# Sentiment Analysis on Social Media Posts (X)
+# Sentiment Classification on Social Media Posts (X)
 
 ---
 
