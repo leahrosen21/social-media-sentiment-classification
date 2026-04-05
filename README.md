@@ -23,9 +23,9 @@ The goal is to classify posts as **Positive** or **Negative** using textual cont
   - Temporal features (time, day, timezone)
 
 ### Files:
-- `sentiment.csv` — Main dataset used in the project (used to split into training and evaluation sets)
-- `test_predictions.csv` — Predictions generated on the [test set](\test.csv) (labels were not disclosed during the project)
-- `test.csv` — Test dataset.
+- `sentiment.csv` - Main dataset used in the project (used to split into training and evaluation sets)
+- `test_predictions.csv` - Predictions generated on the [test set](\test.csv) (labels were not disclosed during the project)
+- `test.csv` - Test dataset.
 
 ---
 
