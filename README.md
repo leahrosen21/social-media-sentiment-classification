@@ -99,14 +99,15 @@ The final selected model achieved strong and balanced performance:
 ---
 
 ## Repository Structure
+```
 ├── data/
 ├── sentiment.csv # Main dataset (train + evaluation split)
 ├── test_predictions.csv # Predictions on hidden test set
-├── notebooks_and_scripts/
+├── notebooks/
 ├── Exploratory Data Analysis & Feature Engineering.ipynb # EDA, preprocessing, feature engineering
 ├── Modeling & Evaluation.ipynb # Model training, tuning, evaluation
 ├── reports/
 │ ├── Exploratory Data Analysis & Feature Engineering.pdf # Detailed analysis and discussion (Phase 1)
 │ ├── Modeling & Evaluation.pdf # Detailed analysis and discussion (Phase 2)
-
+```
 
